@@ -14,6 +14,7 @@ function FeedbackItem() {
     });
   }; */
 
+  //More comment
   return (
     <div className="card">
       <div className="num-display">{rating}</div>
