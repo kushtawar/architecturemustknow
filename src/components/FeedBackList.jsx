@@ -1,6 +1,7 @@
+import PropTypes from 'prop-types';
 import FeedbackItem from './FeedbackItem';
 
-function FeedBackList({ feedback }) {
+function FeedBackList({ feedback, deletehandle }) {
   console.log(feedback.FeedBackList);
   //return <div>{feedback.map((item) => item.id)}</div>;
   return (
@@ -14,5 +15,15 @@ function FeedBackList({ feedback }) {
     </div>
   );
 }
+
+FeedBackList.propTypes = {
+  feedback: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      rating: PropTypes.number.isRequired,
+      text: PropTypes.string.isRequired,
+    })
+  ),
+};
 
 export default FeedBackList;

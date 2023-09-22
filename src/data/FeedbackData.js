@@ -7,7 +7,7 @@ const FeedbackData = [
   {
     id: 2,
     rating: 9,
-    text: 'XSS Cross-site scripting: •	Cross-site scripting occurs when attackers or malicious users can manipulate a web site or web application to return malicious JavaScript to users.',
+    text: 'XSS Cross-site scripting: Cross--site scripting occurs when attackers or malicious users can manipulate a web site or web application to return malicious JavaScript to users.',
   },
   {
     id: 3,

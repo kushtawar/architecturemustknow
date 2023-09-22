@@ -10,7 +10,7 @@ function App() {
   const [feedback, setFeedback] = useState(FeedbackData);
   return (
     <>
-      <Header text="Header Text" />
+      <Header text="Architecture Bytes.." />
       <div className="container">
         <FeedBackList feedback={feedback} />
       </div>

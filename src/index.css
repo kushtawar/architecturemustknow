@@ -128,15 +128,15 @@ input:focus {
 
 .num-display {
   position: absolute;
-  top: -10px;
-  left: -10px;
+  top: -15px;
+  left: -15px;
 }
 
 .close,
 .edit {
   position: absolute;
   top: 10px;
-  right: 20px;
+  right: 10px;
   cursor: pointer;
   background: none;
   border: none;
