@@ -11,7 +11,7 @@ const FeedbackData = [
   },
   {
     id: 3,
-    rating: 8,
+    rating: 9,
     text: 'DDOS: Generating high traffic with a malicious intention to bring the server down or to ensure that servers are not able to accept genuine traffic',
   },
 ];

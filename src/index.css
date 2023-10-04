@@ -142,6 +142,10 @@ input:focus {
   border: none;
 }
 
+.faicons {
+  color: purple;
+}
+
 .edit {
   right: 40px;
 }

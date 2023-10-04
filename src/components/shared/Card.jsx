@@ -2,7 +2,7 @@ import propTypes from 'prop-types';
 
 function Card({ children, reverse }) {
   const a = 'iamreverse' + reverse;
-  console.log(a);
+  /* console.log(a); */
   return (
     <>
       <div className={`card ${reverse && 'reverse'}`}>{children}</div>
